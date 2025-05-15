@@ -1,0 +1,84 @@
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.KITM{
+    width: 70px;
+    height: auto;
+}
+
+nav {
+    margin: 0px;
+    background-color: #9aceeb;
+}
+
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    margin: 0 40px;
+}
+
+
+
+.Stojantiesiems {
+  color: rgb(0, 0, 0);
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  box-shadow: 10px 10px 9px rgba(0, 102, 255, 0.5);
+  background-color: #9aceeb;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4a95bd;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto-blokai {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  gap: 15px; 
+}
+
+.textas {
+  background-color: #9aceeb;
+  color: #000000;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 102, 255, 0.5);
+  flex-basis: auto; 
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}

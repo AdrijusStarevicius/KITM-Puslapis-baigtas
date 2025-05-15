@@ -1,0 +1,77 @@
+h1{text-align: center;
+}
+
+.Fonas {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+  width: auto;
+  max-height: auto;
+  overflow: hidden;
+}
+
+.Fonas {
+  width: 100%;
+  height: auto;
+  
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.KITM{
+    width: 70px;
+    height: auto;
+}
+
+nav {
+    margin: -8px;
+    background-color: #9aceeb;
+}
+
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    margin: 0 40px;
+}
+
+footer {
+  background-color: #9aceeb;
+  padding: 10px;
+  text-align: center;
+  margin: -8px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}

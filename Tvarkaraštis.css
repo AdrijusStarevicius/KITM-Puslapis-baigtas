@@ -1,0 +1,108 @@
+a{
+text-decoration: none;
+color: black;
+}
+
+.KITM{
+    width: 70px;
+    height: auto;
+}
+
+nav {
+    margin: 0px;
+    background-color: #9aceeb;
+}
+
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    margin: 0 40px;
+}
+
+ .timetable {
+      display: grid;
+      grid-template-columns: 80px repeat(12, 1fr);
+      gap: 1px;
+      background: #ccc;
+    }
+
+    .cell {
+      background: white;
+      padding: 5px;
+      text-align: center;
+      font-size: 14px;
+      border: 1px solid #ddd;
+    }
+
+    .header {
+      background: #f0f0f0;
+      font-weight: bold;
+    }
+
+    .lesson {
+      min-height: 60px;
+    }
+
+    .muzika { background-color: #d1c4e9; }
+    .anglu { background-color: orange; }
+    .lietuviu { background-color: #c8e6c9; }
+    .biologija { background-color: lightgreen; }
+    .matematika { background-color: #ffe5be; }
+    .chemija { background-color: #ffccbc; }
+    .fizinis { background-color: #fce4ec; }
+    .rusu { background-color: #ffecd0; }
+    .linux { background-color: #e97777; }
+    .daile { background-color: rgb(128, 98, 128); }
+    .geografija { background-color: lightgreen; }
+    .istorija { background-color: #dbbfff; }
+    .etika { background-color: #fff9c4; }
+    .pilietiskumas { background-color: #e7d4ff; }
+    .vokieciu { background-color: greenyellow; }
+    .fizika { background-color: #d89d88; }
+    .programavimas {background-color: rgb(185, 185, 42);}
+    .informatika {background-color: rgb(161, 161, 255);}
+
+
+    h1{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4a95bd;
+}
+
+.Tvarkaraštis {
+  color: rgb(0, 0, 0);
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  box-shadow: 10px 10px 9px rgba(0, 102, 255, 0.5);
+  background-color: #9aceeb;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+}
